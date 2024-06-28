@@ -1,0 +1,15 @@
+modules = ["web"]
+run = "cd Frontend; pnpm install; npx ionic serve"
+
+[nix]
+channel = "unstable"
+
+[[ports]]
+localPort = 8090
+externalPort = 3000
+exposeLocalhost = true
+
+[[ports]]
+localPort = 8100
+externalPort = 80
+exposeLocalhost = true
