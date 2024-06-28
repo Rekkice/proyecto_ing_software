@@ -1,0 +1,10 @@
+#TermsOfService {
+    .ion-invalid {
+        margin-bottom: 10px;
+    }
+    
+    div h2, div p {
+        text-align: justify;
+        margin: 15px;
+    }
+}

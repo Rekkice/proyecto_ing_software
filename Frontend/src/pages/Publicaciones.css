@@ -1,0 +1,15 @@
+#Publicaciones {
+  text-align: center;
+  .publicacion-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .publicacion-container > * {
+    margin-bottom: 2%; 
+  }
+
+  .publicacion-container > *:last-child {
+    margin-bottom: 0; 
+  }
+}

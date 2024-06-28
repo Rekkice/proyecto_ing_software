@@ -1,0 +1,29 @@
+#Menu {
+    text-align: center;
+    
+    .menu-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Ajusta el número de columnas según sea necesario */
+        gap: 20px;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .menu-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+}
+
+

@@ -1,0 +1,35 @@
+#Eventos{
+  text-align: center;
+  .container-event{
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 2.5%;
+    background-color: #363535;
+    border-radius: 10px;
+  }
+  .container-content{
+    display: flex;
+    text-align: left;
+    flex-wrap: nowrap;
+    padding-left: 5%;
+  }
+  .container-text{
+    padding-right: 15%;
+    padding-left: 2%;
+    color: white;
+  }
+
+  .container-button{
+    height: 10%;
+    margin: auto;
+  }
+  
+  .container-fecha{
+    font-size: 0.8em;
+  }
+  .container-ubicacion{
+    font-size: 0.6em;
+    color: #ebe0e0
+  }
+}

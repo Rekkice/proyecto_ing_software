@@ -1,0 +1,27 @@
+#IniciarSesion {
+    .ion-invalid {
+        margin-bottom: 10px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .custom-button {
+        font-size: 18px; /* Tamaño de la fuente */
+        padding: 20px; /* Padding */
+        margin: 10px; /* Margen */
+        height: 95px; /* Altura */
+        width: 100%; /* Ancho */
+    }
+
+    .welcome{
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .image-container{
+        width: 80%;
+        margin: auto;
+    }
+}

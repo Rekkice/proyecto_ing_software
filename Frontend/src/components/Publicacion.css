@@ -1,0 +1,32 @@
+.formatoimg{
+  width:100%;
+  height: auto;
+  display:block;
+  border-radius:10%;
+}
+.containerFlex{
+  display:flex;
+}
+
+.container{
+  display:flex;
+  justify-content:start;
+}
+
+.usuario{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  flex-wrap:wrap;
+  margin:2%;
+  width:80%;
+}
+
+.icon{
+  display: flex;
+  align-items:center;
+}
+
+.icon .comments {
+  margin-left: 10px; 
+}

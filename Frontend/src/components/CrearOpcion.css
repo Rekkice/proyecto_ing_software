@@ -1,0 +1,9 @@
+.container-crear{
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  bottom: 100px;
+  right: 20px;
+  aspect-ratio: 1;
+  height: 7%;
+} 

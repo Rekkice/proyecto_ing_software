@@ -1,0 +1,16 @@
+#Grupos{
+    text-align: center;
+    
+    h1{
+      text-align: left;
+      padding-left: 5%;
+    }
+
+    h2{
+      text-align: left;
+      padding-left: 5%;
+    }
+    .format{
+      border-radius:10%;
+    }
+}
